@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diaa Abdullah | AI &amp; Machine Learning Engineer</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Portfolio of Diaa Abdullah, an AI and Machine Learning Engineer specializing in deep neural networks, custom large language models, MLOps, and scalable intelligence.">
+  <meta name="keywords" content="Diaa Abdullah, AI Engineer, Machine Learning, Deep Learning, MLOps, Data Scientist, PyTorch, LLMs, Portfolio, Web Development">
+  <meta name="author" content="Diaa Abdullah">
+  
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Diaa Abdullah | AI &amp; Machine Learning Engineer">
+  <meta property="og:description" content="Explore the portfolio of Diaa Abdullah, featuring state-of-the-art neural networks, custom LLMs, and scalable AI pipelines.">
+  <meta property="og:image" content="assets/avatar.jpg">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <!-- Interactive Particles Canvas Background -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- Header Section -->
+  <header id="site-header">
+    <div class="container nav-container">
+      <a href="#hero" class="logo" id="nav-logo">
+        Diaa<span class="logo-dot"></span>
+      </a>
+      
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#hero" class="nav-link active" id="link-hero">Home</a></li>
+          <li><a href="#about" class="nav-link" id="link-about">About</a></li>
+          <li><a href="#skills" class="nav-link" id="link-skills">Skills</a></li>
+          <li><a href="#projects" class="nav-link" id="link-projects">Projects</a></li>
+          <li><a href="#contact" class="nav-link" id="link-contact">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div style="display: flex; align-items: center; gap: 16px;">
+        <button class="theme-toggle" id="theme-toggle-btn" aria-label="Toggle Dark/Light Mode">
+          <i data-lucide="moon" class="moon-icon"></i>
+          <i data-lucide="sun" class="sun-icon"></i>
+        </button>
+        
+        <button class="nav-toggle" id="nav-toggle-btn" aria-label="Toggle Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <span class="hero-tagline" id="hero-welcome">Intelligence Engineered</span>
+          <h1 class="hero-title" id="main-heading">
+            Hi, I'm <span class="gradient-text">Diaa Abdullah</span><br>
+            I build <span id="typing-text" class="gradient-text"></span><span class="typing-cursor"></span>
+          </h1>
+          <p class="hero-description" id="hero-desc">
+            A passionate Machine Learning Engineer and AI Researcher. I craft state-of-the-art deep neural networks, fine-tune custom LLMs, and engineer robust MLOps orchestration systems to bridge the gap between research and scalable production.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary" id="hero-btn-projects">
+              View Work <i data-lucide="arrow-right" style="margin-left: 8px; width: 18px; height: 18px;"></i>
+            </a>
+            <a href="#contact" class="btn btn-secondary" id="hero-btn-contact">Contact Me</a>
+          </div>
+        </div>
+        
+        <div class="hero-visual reveal">
+          <div class="hero-avatar-container">
+            <img src="assets/avatar.jpg" alt="Diaa Abdullah's Portrait Photo" class="hero-avatar" id="hero-avatar-img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title" id="about-title">About Me</h2>
+          <p class="section-subtitle" id="about-subtitle">My professional journey, research interests, and career milestones.</p>
+        </div>
+        
+        <div class="about-grid">
+          <div class="about-info reveal">
+            <h3>Bridging Theory with Scalability</h3>
+            <p class="about-text">
+              I believe that the true power of Artificial Intelligence lies in its practical application. I specialize in designing robust, optimized model architectures backed by automated pipelines that make deploying and monitoring AI seamless.
+            </p>
+            <p class="about-text">
+              With a strong background in computer science and mathematical optimization, I solve complex data problems through deep learning models, meticulous feature engineering, and automated MLOps pipelines.
+            </p>
+            
+            <div class="about-stats">
+              <div class="stat-card glass-card">
+                <span class="stat-number" id="stat-projects">15+</span>
+                <span class="stat-label">AI Models Deployed</span>
+              </div>
+              <div class="stat-card glass-card">
+                <span class="stat-number" id="stat-experience">3+</span>
+                <span class="stat-label">Years Experience</span>
+              </div>
+              <div class="stat-card glass-card">
+                <span class="stat-number" id="stat-clients">100%</span>
+                <span class="stat-label">Accuracy &amp; Impact</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="about-timeline-wrapper reveal">
+            <h3>My Milestones</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <span class="timeline-date">2024 - Present</span>
+                <h4 class="timeline-title">Machine Learning Engineer</h4>
+                <p class="timeline-org">InnovateTech Solutions</p>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-date">2022 - 2024</span>
+                <h4 class="timeline-title">AI Developer &amp; Data Scientist</h4>
+                <p class="timeline-org">Zenith AI Labs</p>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-date">2019 - 2022</span>
+                <h4 class="timeline-title">B.S. in Computer Science (Major in AI)</h4>
+                <p class="timeline-org">Global Tech University</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">My Skills</h2>
+          <p class="section-subtitle">A breakdown of my mathematical toolkit, machine learning libraries, and MLOps platforms.</p>
+        </div>
+        
+        <div class="skills-grid">
+          <!-- Category 1: Deep Learning & NLP -->
+          <div class="skills-category glass-card reveal">
+            <h3 class="skills-category-title">
+              <i data-lucide="layout" width="20" height="20"></i> Deep Learning &amp; NLP
+            </h3>
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">PyTorch / TensorFlow</span>
+                  <span class="skill-percentage">95%</span>
+                </div>
+                <div class="skill-bar-bg"><div class="skill-bar-fill" data-percentage="95%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Transformers &amp; LLM Tuning</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar-bg"><div class="skill-bar-fill" data-percentage="90%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Computer Vision (CNNs/YOLO)</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="skill-bar-bg"><div class="skill-bar-fill" data-percentage="85%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Data Science & Coding -->
+          <div class="skills-category glass-card reveal">
+            <h3 class="skills-category-title">
+              <i data-lucide="server" width="20" height="20"></i> Data Science &amp; Engineering
+            </h3>
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Python (Pandas, NumPy, Scikit)</span>
+                  <span class="skill-percentage">95%</span>
+                </div>
+                <div class="skill-bar-bg"><div class="skill-bar-fill" data-percentage="95%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">SQL / NoSQL Databases</span>
+                  <span class="skill-percentage">80%</span>
+                </div>
+                <div class="skill-bar-bg"><div class="skill-bar-fill" data-percentage="80%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">C++ / CUDA Optimization</span>
+                  <span class="skill-percentage">75%</span>
+                </div>
+                <div class="skill-bar-bg"><div class="skill-bar-fill" data-percentage="75%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: MLOps & Infrastructure -->
+          <div class="skills-category glass-card reveal">
+            <h3 class="skills-category-title">
+              <i data-lucide="palette" width="20" height="20"></i> MLOps &amp; Cloud Systems
+            </h3>
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Docker / Kubernetes</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar-bg"><div class="skill-bar-fill" data-percentage="90%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">MLflow / DVC / Git</span>
+                  <span class="skill-percentage">88%</span>
+                </div>
+                <div class="skill-bar-bg"><div class="skill-bar-fill" data-percentage="88%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">AWS / GCP Cloud Platforms</span>
+                  <span class="skill-percentage">80%</span>
+                </div>
+                <div class="skill-bar-bg"><div class="skill-bar-fill" data-percentage="80%"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Circular skill SVGs -->
+        <div class="radial-skills-container reveal">
+          <div class="radial-skill-card">
+            <svg class="radial-svg" viewBox="0 0 100 100">
+              <defs>
+                <linearGradient id="radial-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#8b5cf6" />
+                  <stop offset="100%" stop-color="#06b6d4" />
+                </linearGradient>
+              </defs>
+              <circle class="radial-track" cx="50" cy="50" r="45" />
+              <circle class="radial-fill" cx="50" cy="50" r="45" data-offset="28" />
+              <text class="radial-text" x="50" y="50" text-anchor="middle" dominant-baseline="central">90%</text>
+            </svg>
+            <h4 style="margin-top: 10px; font-size: 0.95rem;">Model Optimization</h4>
+          </div>
+          
+          <div class="radial-skill-card">
+            <svg class="radial-svg" viewBox="0 0 100 100">
+              <circle class="radial-track" cx="50" cy="50" r="45" />
+              <circle class="radial-fill" cx="50" cy="50" r="45" data-offset="42" />
+              <text class="radial-text" x="50" y="50" text-anchor="middle" dominant-baseline="central">85%</text>
+            </svg>
+            <h4 style="margin-top: 10px; font-size: 0.95rem;">Statistical Modeling</h4>
+          </div>
+          
+          <div class="radial-skill-card">
+            <svg class="radial-svg" viewBox="0 0 100 100">
+              <circle class="radial-track" cx="50" cy="50" r="45" />
+              <circle class="radial-fill" cx="50" cy="50" r="45" data-offset="14" />
+              <text class="radial-text" x="50" y="50" text-anchor="middle" dominant-baseline="central">95%</text>
+            </svg>
+            <h4 style="margin-top: 10px; font-size: 0.95rem;">System Architecture</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Selected Projects</h2>
+          <p class="section-subtitle">A collection of custom machine learning models and AI pipelines I've built and deployed.</p>
+        </div>
+        
+        <!-- Filter Buttons -->
+        <div class="projects-filters reveal">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="deeplearning">Deep Learning</button>
+          <button class="filter-btn" data-filter="nlp">NLP &amp; LLMs</button>
+          <button class="filter-btn" data-filter="mlops">MLOps &amp; Data</button>
+        </div>
+        
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projects-grid-container">
+          <!-- Project 1 -->
+          <article class="project-card glass-card reveal" data-category="deeplearning" data-project-id="1">
+            <div class="project-image-wrapper">
+              <img src="assets/project1.png" alt="AetherNet Super-Resolution Screenshot" class="project-img">
+              <div class="project-overlay">
+                <span class="project-overlay-link" aria-label="View Project Details">
+                  <i data-lucide="eye" width="20" height="20"></i>
+                </span>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">Deep Learning</span>
+                <span class="project-tag">Computer Vision</span>
+              </div>
+              <h3 class="project-title">AetherNet</h3>
+              <p class="project-desc">A deep learning model for real-time video super-resolution and frame interpolation using generative adversarial structures.</p>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card glass-card reveal" data-category="nlp" data-project-id="2">
+            <div class="project-image-wrapper">
+              <img src="assets/project2.png" alt="Synapse LLM Interface Screenshot" class="project-img">
+              <div class="project-overlay">
+                <span class="project-overlay-link" aria-label="View Project Details">
+                  <i data-lucide="eye" width="20" height="20"></i>
+                </span>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">NLP</span>
+                <span class="project-tag">LLMs</span>
+              </div>
+              <h3 class="project-title">Synapse LLM</h3>
+              <p class="project-desc">A specialized, fine-tuned large language model optimized for secure, offline code generation and security analysis.</p>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card glass-card reveal" data-category="mlops" data-project-id="3">
+            <div class="project-image-wrapper">
+              <img src="assets/project3.png" alt="NeuroFlow Pipeline Orchestration Screenshot" class="project-img">
+              <div class="project-overlay">
+                <span class="project-overlay-link" aria-label="View Project Details">
+                  <i data-lucide="eye" width="20" height="20"></i>
+                </span>
+              </div>
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span class="project-tag">MLOps</span>
+                <span class="project-tag">Cloud / Infra</span>
+              </div>
+              <h3 class="project-title">NeuroFlow</h3>
+              <p class="project-desc">An MLOps platform for automated pipeline orchestration, model versioning, and drift detection.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Details Modal -->
+    <div class="modal" id="project-modal" aria-hidden="true" role="dialog">
+      <div class="modal-card glass-card">
+        <header class="modal-header">
+          <button class="modal-close-btn" id="modal-close-btn" aria-label="Close Details Modal">&times;</button>
+          <img src="" alt="" class="modal-img" id="modal-project-img">
+        </header>
+        <div class="modal-body">
+          <div class="modal-tech-list" id="modal-project-tech">
+            <!-- Dynamically inserted -->
+          </div>
+          <h3 class="modal-title" id="modal-project-title">Project Title</h3>
+          <p class="modal-desc" id="modal-project-desc">Detailed project description goes here.</p>
+          <div class="modal-actions">
+            <a href="#" target="_blank" class="btn btn-primary" id="modal-project-demo-btn">
+              Live Demo <i data-lucide="external-link" style="margin-left: 8px; width: 16px; height: 16px;"></i>
+            </a>
+            <a href="#" target="_blank" class="btn btn-secondary" id="modal-project-github-btn">
+              Source Code <i data-lucide="github" style="margin-left: 8px; width: 16px; height: 16px;"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="section-subtitle">Feel free to drop a message! I'm open to freelance contracts, research positions, and ML collaborations.</p>
+        </div>
+        
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <h3>Let's build intelligent systems.</h3>
+            <p style="color: var(--text-secondary); margin-bottom: 10px;">
+              Ready to take your product to the next level with artificial intelligence? I'd love to chat about your projects and vision.
+            </p>
+            
+            <div class="contact-method">
+              <div class="contact-icon-wrapper">
+                <i data-lucide="mail"></i>
+              </div>
+              <div>
+                <h4 class="contact-method-title">Email</h4>
+                <a href="mailto:diaa.abdullah@example.com" class="contact-method-value" style="text-decoration: none;">diaa.abdullah@example.com</a>
+              </div>
+            </div>
+
+            <div class="contact-method">
+              <div class="contact-icon-wrapper">
+                <i data-lucide="map-pin"></i>
+              </div>
+              <div>
+                <h4 class="contact-method-title">Location</h4>
+                <span class="contact-method-value">Cairo, Egypt</span>
+              </div>
+            </div>
+            
+            <div class="social-links">
+              <a href="https://github.com" target="_blank" class="social-link" aria-label="GitHub Profile">
+                <i data-lucide="github"></i>
+              </a>
+              <a href="https://linkedin.com" target="_blank" class="social-link" aria-label="LinkedIn Profile">
+                <i data-lucide="linkedin"></i>
+              </a>
+              <a href="https://twitter.com" target="_blank" class="social-link" aria-label="Twitter Profile">
+                <i data-lucide="twitter"></i>
+              </a>
+            </div>
+          </div>
+          
+          <div class="contact-form-card glass-card reveal">
+            <div id="form-success-container"></div>
+            
+            <form id="contact-form" novalidate>
+              <div class="form-group">
+                <label for="form-name" class="form-label">Full Name</label>
+                <input type="text" id="form-name" class="form-control" placeholder="John Doe">
+                <div class="form-error" id="error-name">Please enter your name.</div>
+              </div>
+              
+              <div class="form-group">
+                <label for="form-email" class="form-label">Email Address</label>
+                <input type="email" id="form-email" class="form-control" placeholder="john@example.com">
+                <div class="form-error" id="error-email">Please enter a valid email address.</div>
+              </div>
+              
+              <div class="form-group">
+                <label for="form-message" class="form-label">Message</label>
+                <textarea id="form-message" class="form-control" rows="5" placeholder="Let's talk about..."></textarea>
+                <div class="form-error" id="error-message">Please enter a message.</div>
+              </div>
+              
+              <button type="submit" class="btn btn-primary" id="form-submit-btn" style="width: 100%;">
+                Send Message <i data-lucide="send" style="margin-left: 8px; width: 18px; height: 18px;"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container footer-content">
+      <p class="copyright">&copy; 2026 Diaa Abdullah. All rights reserved.</p>
+      <a href="#hero" class="back-to-top" id="back-to-top-btn">
+        Back to top <i data-lucide="arrow-up" style="width: 18px; height: 18px;"></i>
+      </a>
+    </div>
+  </footer>
+
+  <!-- Script reference -->
+  <script src="script.js"></script>
+</body>
+</html>
