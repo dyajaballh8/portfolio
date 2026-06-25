@@ -454,12 +454,25 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (!isValid) return;
 
-    // Simulate server submission
+    // Real server submission using FormSubmit (free static form handler)
     submitBtn.disabled = true;
     submitBtn.innerHTML = `Sending... <i data-lucide="loader" class="animate-spin" style="margin-left: 8px; width: 18px; height: 18px;"></i>`;
     lucide.createIcons();
 
-    setTimeout(() => {
+    fetch("https://formsubmit.co/ajax/dyajaballh8@gmail.com", {
+      method: "POST",
+      headers: { 
+        'Content-Type': 'application/json',
+        'Accept': 'application/json'
+      },
+      body: JSON.stringify({
+        Name: inputName.value,
+        Email: inputEmail.value,
+        Message: inputMessage.value
+      })
+    })
+    .then(response => response.json())
+    .then(data => {
       // Success response state
       successContainer.innerHTML = `
         <div class="form-success-banner">
@@ -486,7 +499,22 @@ document.addEventListener('DOMContentLoaded', () => {
       setTimeout(() => {
         successContainer.innerHTML = '';
       }, 7000);
+    })
+    .catch(error => {
+      console.error('Error submitting form:', error);
+      submitBtn.disabled = false;
+      submitBtn.innerHTML = `Send Message <i data-lucide="send" style="margin-left: 8px; width: 18px; height: 18px;"></i>`;
+      lucide.createIcons();
       
-    }, 1500);
+      successContainer.innerHTML = `
+        <div class="form-error-banner" style="display: flex; gap: 12px; padding: 16px; background: rgba(239, 68, 68, 0.1); border: 1px solid rgba(239, 68, 68, 0.2); border-radius: var(--border-radius-md); color: #f87171; margin-bottom: 24px;">
+          <i data-lucide="alert-circle" style="width: 24px; height: 24px; flex-shrink: 0;"></i>
+          <div>
+            <strong>Oops!</strong> Something went wrong. Please try sending again or contact me directly via email.
+          </div>
+        </div>
+      `;
+      lucide.createIcons();
+    });
   });
 });
