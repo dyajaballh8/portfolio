@@ -958,6 +958,12 @@ header:not(.scrolled) {
   transition: var(--transition-smooth);
 }
 
+.social-link svg {
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
 .social-link:hover {
   transform: translateY(-5px);
   color: #ffffff;

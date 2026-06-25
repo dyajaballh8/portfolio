@@ -312,7 +312,7 @@ document.addEventListener('DOMContentLoaded', () => {
       image: 'assets/project1.png',
       tech: ['PyTorch', 'CUDA', 'GANs', 'OpenCV', 'TensorRT', 'FastAPI'],
       demo: 'https://aethernet-ai.demo',
-      github: 'https://github.com/diaa-abdullah/aethernet-super-resolution'
+      github: 'https://github.com/dyajaballh8/aethernet-super-resolution'
     },
     2: {
       title: 'Synapse LLM',
@@ -320,7 +320,7 @@ document.addEventListener('DOMContentLoaded', () => {
       image: 'assets/project2.png',
       tech: ['Transformers', 'Hugging Face', 'DeepSpeed', 'LoRA', 'Python', 'FastAPI'],
       demo: 'https://synapse-llm.demo',
-      github: 'https://github.com/diaa-abdullah/synapse-llm'
+      github: 'https://github.com/dyajaballh8/synapse-llm'
     },
     3: {
       title: 'NeuroFlow',
@@ -328,7 +328,7 @@ document.addEventListener('DOMContentLoaded', () => {
       image: 'assets/project3.png',
       tech: ['Docker', 'Kubernetes', 'MLflow', 'DVC', 'Python', 'AWS S3'],
       demo: 'https://neuroflow-mlops.demo',
-      github: 'https://github.com/diaa-abdullah/neuroflow-mlops'
+      github: 'https://github.com/dyajaballh8/neuroflow-mlops'
     }
   };
 
