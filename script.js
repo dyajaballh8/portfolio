@@ -329,6 +329,30 @@ document.addEventListener('DOMContentLoaded', () => {
       tech: ['Docker', 'Kubernetes', 'MLflow', 'DVC', 'Python', 'AWS S3'],
       demo: 'https://neuroflow-mlops.demo',
       github: 'https://github.com/dyajaballh8/neuroflow-mlops'
+    },
+    4: {
+      title: 'Data Science Salaries Analysis',
+      desc: 'An in-depth statistical analysis of global salaries in data-related roles. Utilizing a dataset containing salary parameters from thousands of professionals worldwide, this project analyzes salary variations by experience level, remote work ratios, company size, and job titles. Leverages advanced visual statistical methods to isolate clean salary clusters and trends.',
+      image: 'assets/project4.png',
+      tech: ['Python', 'Jupyter Notebook', 'Pandas', 'Matplotlib', 'Seaborn', 'Scikit-learn'],
+      demo: 'https://github.com/dyajaballh8/data-jobs-salary-analysis',
+      github: 'https://github.com/dyajaballh8/data-jobs-salary-analysis'
+    },
+    5: {
+      title: 'SuperStore Sales & Profit Analysis',
+      desc: 'A comprehensive retail analytics dashboard investigating sales, profits, shipping times, and customer segmentation patterns. Cleanses and parses large transaction datasets to reveal high-margin product sub-categories, peak seasonal sales periods, geographic distribution performance, and delivery bottlenecks.',
+      image: 'assets/project5.png',
+      tech: ['Python', 'Jupyter Notebook', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn'],
+      demo: 'https://github.com/dyajaballh8/superstore-sales-analysis',
+      github: 'https://github.com/dyajaballh8/superstore-sales-analysis'
+    },
+    6: {
+      title: 'Udemy Courses Market Analysis',
+      desc: 'An explanatory data visualization report exploring Udemy\'s course catalog. Analyzes the correlation between course pricing structures, subscriber counts, review ratios, and course durations. Uncovers insights on which subject areas draw the most subscribers, the relationship between paid vs. free courses, and content trends over time.',
+      image: 'assets/project6.png',
+      tech: ['Python', 'Jupyter Notebook', 'Pandas', 'Matplotlib', 'Seaborn', 'Scipy'],
+      demo: 'https://github.com/dyajaballh8/udemy-courses-analysis',
+      github: 'https://github.com/dyajaballh8/udemy-courses-analysis'
     }
   };
 
