@@ -335,7 +335,7 @@ document.addEventListener('DOMContentLoaded', () => {
       desc: 'An in-depth statistical analysis of global salaries in data-related roles. Utilizing a dataset containing salary parameters from thousands of professionals worldwide, this project analyzes salary variations by experience level, remote work ratios, company size, and job titles. Leverages advanced visual statistical methods to isolate clean salary clusters and trends.',
       image: 'assets/project4.png',
       tech: ['Python', 'Jupyter Notebook', 'Pandas', 'Matplotlib', 'Seaborn', 'Scikit-learn'],
-      demo: 'https://github.com/dyajaballh8/Data-Jobs-Salary-Project',
+      demo: 'https://github.com/dyajaballh8/Data-Jobs-Salary-Project/blob/main/Data%20Jobs%20Salary%20Notebook.ipynb',
       github: 'https://github.com/dyajaballh8/Data-Jobs-Salary-Project'
     },
     5: {
@@ -343,7 +343,7 @@ document.addEventListener('DOMContentLoaded', () => {
       desc: 'A comprehensive retail analytics dashboard investigating sales, profits, shipping times, and customer segmentation patterns. Cleanses and parses large transaction datasets to reveal high-margin product sub-categories, peak seasonal sales periods, geographic distribution performance, and delivery bottlenecks.',
       image: 'assets/project5.png',
       tech: ['Python', 'Jupyter Notebook', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn'],
-      demo: 'https://github.com/dyajaballh8/SuperStore-Project',
+      demo: 'https://github.com/dyajaballh8/SuperStore-Project/blob/main/SuperStore%20Notebook.ipynb',
       github: 'https://github.com/dyajaballh8/SuperStore-Project'
     },
     6: {
@@ -351,7 +351,7 @@ document.addEventListener('DOMContentLoaded', () => {
       desc: 'An explanatory data visualization report exploring Udemy\'s course catalog. Analyzes the correlation between course pricing structures, subscriber counts, review ratios, and course durations. Uncovers insights on which subject areas draw the most subscribers, the relationship between paid vs. free courses, and content trends over time.',
       image: 'assets/project6.png',
       tech: ['Python', 'Jupyter Notebook', 'Pandas', 'Matplotlib', 'Seaborn', 'Scipy'],
-      demo: 'https://github.com/dyajaballh8/Udemy-Project',
+      demo: 'https://github.com/dyajaballh8/Udemy-Project/blob/main/Udemy%20Notebook.ipynb',
       github: 'https://github.com/dyajaballh8/Udemy-Project'
     }
   };
